@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script language="javascript" src="validar.js"></script>
+</head>
+
+<body>
+    <p><b>Calculadora</b></p>
+    <form name="cal" method="post" action="">
+        Número 1: <input type="text" size="5" name="num1">
+        <br> <br>
+        Número 2: <input type="text" size="5" name="num2">
+        <br> <br>
+        <input type="button" value="+" onclick="calcular(1)">
+        <input type="button" value="-" onclick="calcular(2)">
+        <input type="button" value="x" onclick="calcular(3)">
+        <input type="button" value="/" onclick="calcular(4)">
+        <br> <br>
+        Resultado: <input type="text" name="result">
+    </form>
+</body>
+
+</html>
